@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:ddDog="http://schemas.android.com/apk/res-auto"
+    tools:context="feifu.com.testview.MainActivity">
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <feifu.com.testview.gridpswview.GridPswView
+        android:padding="5dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/grid"
+        ddDog:textColor="#0ff"
+        ddDog:backgroundColor="#C3C3C3"
+        ddDog:passwordTransformation="*"
+        ddDog:isPswVisible="true"
+        ddDog:length="9"
+        ddDog:textSize="14sp"
+        ddDog:borderColor="#f00"
+        ddDog:borderWidth="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>
